@@ -1,10 +1,10 @@
 ## Schematic and PCB Layers
 
-- [Schematic](schematic.pdf)
-- [PCB Front](pcbF.pdf)
-- [PCB Back](pcbB.pdf)
-- [PCB Inner Layer 1](pcbIn1.pdf)
-- [PCB Inner Layer 2](pcbIn2.pdf)
+- [Schematic](files/schematic.pdf)
+- [PCB Front](files/pcbF.pdf)
+- [PCB Back](files/pcbB.pdf)
+- [PCB Inner Layer 1](files/pcbIn1.pdf)
+- [PCB Inner Layer 2](files/pcbIn2.pdf)
 
 
 ## Here As Image Previews.
