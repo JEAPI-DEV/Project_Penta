@@ -3721,176 +3721,6 @@
 				)
 			)
 		)
-		(symbol "PCM_4ms_Resistor:0R_0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0R_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "4ms_Resistor:R_0603"
-				(at -2.54 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0R, 1%, 1/10W, 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "0R, 1%, 1/10W, 0603"
-				(at -2.54 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -2.54 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RC0603FR-100RL"
-				(at -2.54 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Display" "0R"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB ID" "C21189"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0R_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0R_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0R_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_4ms_Resistor:10k_0402"
 			(pin_numbers hide)
 			(pin_names
@@ -8708,6 +8538,12 @@
 		(uuid "438b2713-79ad-4daf-8dcb-5688a8bf1300")
 	)
 	(junction
+		(at 269.875 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "468ceb58-afa6-4cc7-a2ea-7b825a0d8d15")
+	)
+	(junction
 		(at 276.86 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9431,6 +9267,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 236.22) (xy 269.875 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1e06b5-a01a-47bc-a954-9d6b5f429992")
+	)
+	(wire
+		(pts
 			(xy 219.71 59.69) (xy 219.71 58.42)
 		)
 		(stroke
@@ -9698,16 +9544,6 @@
 			(type default)
 		)
 		(uuid "2acc5de7-3835-4a8e-9ffb-3fbbe7e6006d")
-	)
-	(wire
-		(pts
-			(xy 81.28 66.04) (xy 91.44 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b7e75eb-8439-48de-8271-dac11272db3e")
 	)
 	(wire
 		(pts
@@ -10221,7 +10057,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 63.5) (xy 73.66 63.5)
+			(xy 60.96 63.5) (xy 83.82 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10368,6 +10204,16 @@
 			(type default)
 		)
 		(uuid "64501eb0-e076-4b47-8aab-f1a12bf5a66f")
+	)
+	(wire
+		(pts
+			(xy 266.7 222.25) (xy 266.7 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a93cc7-b6e7-41cc-b694-eeeceb403cf5")
 	)
 	(wire
 		(pts
@@ -10928,16 +10774,6 @@
 			(type default)
 		)
 		(uuid "9086ba40-5aef-4793-ad0f-d873fd453890")
-	)
-	(wire
-		(pts
-			(xy 81.28 63.5) (xy 91.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91e1df1e-70ec-4719-977a-fa638aff51eb")
 	)
 	(wire
 		(pts
@@ -11561,7 +11397,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 66.04) (xy 73.66 66.04)
+			(xy 60.96 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -11578,16 +11414,6 @@
 			(type default)
 		)
 		(uuid "ca4cc299-57a6-443b-9a76-e2884adb720e")
-	)
-	(wire
-		(pts
-			(xy 266.7 212.09) (xy 266.7 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb3ab62-6f3d-499f-8443-99d25766311c")
 	)
 	(wire
 		(pts
@@ -11851,6 +11677,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 236.22) (xy 273.05 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fc6838-4f46-4b2f-b438-eeb36b01b9f0")
+	)
+	(wire
+		(pts
 			(xy 401.32 226.06) (xy 401.32 224.79)
 		)
 		(stroke
@@ -11868,16 +11704,6 @@
 			(type default)
 		)
 		(uuid "e52537c7-6f2a-42ef-83a4-5d439c5fb9ed")
-	)
-	(wire
-		(pts
-			(xy 273.05 236.22) (xy 269.875 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e69b5ad2-3b88-41da-8767-ef7e70504c59")
 	)
 	(wire
 		(pts
@@ -12595,7 +12421,7 @@
 		(uuid "6b153813-662b-45e8-8054-a563d2858794")
 	)
 	(label "USB_D+"
-		(at 91.44 66.04 180)
+		(at 83.82 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12735,7 +12561,7 @@
 		(uuid "ced92532-14f2-4040-a22f-30dd2e87aa92")
 	)
 	(label "USB_D-"
-		(at 91.44 63.5 180)
+		(at 83.82 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16859,122 +16685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Resistor:0R_0603")
-		(at 77.47 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40f868bf-2720-4239-a3f2-d7cb28b4ea64")
-		(property "Reference" "R33"
-			(at 72.898 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R_0603"
-			(at 77.47 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0603"
-			(at 90.17 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0R, 1%, 1/10W, 0603"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "0R, 1%, 1/10W, 0603"
-			(at 85.344 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 86.868 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0603FR-100RL"
-			(at 88.392 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0R"
-			(at 81.534 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB ID" "C21189"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66e2649c-de9d-4ed9-bed5-75b647f50ad1")
-		)
-		(pin "2"
-			(uuid "bf9d9530-de05-47e0-b12d-8d093a72f956")
-		)
-		(instances
-			(project ""
-				(path "/cffcce3a-2637-462e-98f4-0b48ad698b9b"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 290.83 236.855 0)
 		(unit 1)
@@ -17583,76 +17293,6 @@
 			(project "stopwatchy"
 				(path "/cffcce3a-2637-462e-98f4-0b48ad698b9b"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0805")
-		(at 266.7 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52ae9bf1-3e44-4016-b448-44e7d9e95aeb")
-		(property "Reference" "R17"
-			(at 269.24 207.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 269.24 209.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0805_2012Metric"
-			(at 266.7 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 266.7 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf6ac284-d6b3-4e8c-856c-a6702e4e2ada")
-		)
-		(pin "2"
-			(uuid "3249e491-896c-4b73-82ed-e486ee7d83bb")
-		)
-		(instances
-			(project ""
-				(path "/cffcce3a-2637-462e-98f4-0b48ad698b9b"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -20527,122 +20167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Resistor:0R_0603")
-		(at 77.47 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a319af32-81df-4ab0-8956-482ca7ced18c")
-		(property "Reference" "R34"
-			(at 72.898 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R_0603"
-			(at 77.47 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "4ms_Resistor:R_0603"
-			(at 90.17 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0R, 1%, 1/10W, 0603"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "0R, 1%, 1/10W, 0603"
-			(at 85.344 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 86.868 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0603FR-100RL"
-			(at 88.392 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0R"
-			(at 81.534 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB ID" "C21189"
-			(at 77.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7356905d-5e49-4835-909a-92ea97cfadff")
-		)
-		(pin "2"
-			(uuid "ea48f42b-3993-41e9-98b4-aeb235cd1833")
-		)
-		(instances
-			(project "stopwatchy"
-				(path "/cffcce3a-2637-462e-98f4-0b48ad698b9b"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 88.9 181.61 0)
 		(unit 1)
@@ -20767,6 +20291,75 @@
 			(project "stopwatchy"
 				(path "/cffcce3a-2637-462e-98f4-0b48ad698b9b"
 					(reference "#PWR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 266.7 218.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7a283d1-b784-4712-b8f8-234e080d4e72")
+		(property "Reference" "R17"
+			(at 265.43 219.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 265.43 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Resistor:R_0805_2012Metric"
+			(at 266.7 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 266.7 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ee5f525-1194-4943-9630-6fbdc74ac2f0")
+		)
+		(pin "2"
+			(uuid "967049be-a63e-4fab-abc6-089d786017e0")
+		)
+		(instances
+			(project "stopwatchy"
+				(path "/cffcce3a-2637-462e-98f4-0b48ad698b9b"
+					(reference "R17")
 					(unit 1)
 				)
 			)
